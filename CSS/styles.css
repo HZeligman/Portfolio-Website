@@ -2,12 +2,12 @@
 Colors used
 background (light blue): #BCE7E5;
 Text Color (Dark blue): #003366;
-Primary Color (Pink): #ff00ff;
+Primary Color (dark green): #0B5D37;
 Secondary Color (deep purple): #800080;
  */
 :root {
   --background-color: #BCE7E5;
-  --primary-color: #ff00ff;
+  --primary-color: #0B5D37;
   --secondary-color: #800080;
   --dark-blue: #003366;
 }
@@ -113,6 +113,12 @@ a:active {
 
 .about-list {
   list-style-type: none;
+}
+
+.skill-table {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
 }
 
 .button {
@@ -226,10 +232,16 @@ a:active {
   }
 }
 
-.contact-info, .contact-me, .contact-form {
-  padding-left: 25px;
+.contact {
+  text-align: center;
 }
 
 .contact-form {
-  padding-top: 25px;
+  border:2px;
+  }
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
 }
